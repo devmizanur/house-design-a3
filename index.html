@@ -27,16 +27,68 @@
         extend: {
           colors: {
             clifford: '#da373d',
-            primary_btn: '#da373d',
+            left_color: '#212121',
+            btn_bg: '#ABEF5F',
           }
         }
       }
     }
   </script>
 </head>
-<body>
-  <header>
-    
+
+<body class="font-manrope">
+  <header class="bg-[#FFFFFFFF
+  #FFFFFF00] w-11/12 mx-auto">
+    <nav>
+      <!--navbar start-->
+      <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <a class="btn "><span class=" rounded-full leading-8 h-8 w-8 bg-[#ABEF5F]"><i
+                class="fa-solid fa-up-right-from-square"></i></span> <span
+              class="font-extrabold text-left_color lg:text-4xl text-3xl ">Rinterio</span></a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="text-xl font-normal menu menu-horizontal px-2">
+            <li class="font-black"><a>Home</a></li>
+            <li><a>Services</a></li>
+            <li><a>Portfolio</a></li>
+            <li><a>Blogs</a></li>
+            <li><a>Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <div class="hidden lg:w-full lg:flex">
+            <div class="flex text-right flex-1 lg:ml-12 gap-x-4">
+              <span class="relative h-[50px] w-[50px] rounded-full text-2xl bg-stone-200"><i
+                  class="absolute top-3 left-[14px] fa-solid fa-magnifying-glass"></i></span>
+              <span class="relative h-[50px] w-[50px] rounded-full text-2xl bg-stone-200"><i
+                  class="absolute top-3 left-[11px] fa-solid fa-cart-shopping"></i></span>
+            </div>
+            <a class="lg:flex-1 rounded-3xl w-52 h-14 btn bg-btn_bg"><span
+                class="leading-8 w-8 h-8 text-sm rounded-full bg-black text-white"><i
+                  class="fa-solid fa-square-up-right"></i></span> <span class="text-xl font-extrabold">Book
+                Consult</span></a>
+          </div>
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </div>
+            <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-20 p-1 shadow">
+              <li><a>Home</a></li>
+              <li><a>Services</a></li>
+              <li><a>Portfolio</a></li>
+              <li><a>Blogs</a></li>
+              <li><a>Contact Us</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+      <!--navbar end-->
+    </nav>
   </header>
   <main></main>
   <footer></footer>
